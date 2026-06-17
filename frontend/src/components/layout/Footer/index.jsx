@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container footer-content">
         <div className="footer-brand">
           <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <img src="/images/swaraz-logo.png" alt="Swaraz Mart Logo" style={{ height: '65px' }} />
+            <img src="/images/swaraz-logo.png" alt="Swaraz Mart Logo" className="footer-logo" />
             Swaraz Mart
           </h3>
           <p>

@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <Link to={ROUTES.HOME} className="navbar-brand">
-        <img src="/images/swaraz-logo.png" alt="Swaraz Mart Logo" style={{ height: '65px' }} />
+        <img src="/images/swaraz-logo.png" alt="Swaraz Mart Logo" className="navbar-logo" />
         Swaraz Mart
       </Link>
       <div className="navbar-links">
