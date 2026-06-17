@@ -1,0 +1,24 @@
+:root {
+  --primary: #d81b60;
+  --primary-light: #ff5c8d;
+  --primary-dark: #a00037;
+  --secondary: #ff9800;
+  --bg-light: #fafafa;
+  --bg-white: #ffffff;
+  --text-dark: #121212;
+  --text-light: #5f6368;
+  --text-muted: #9e9e9e;
+  --border-color: #eeeeee;
+  
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.05);
+  --shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.1);
+  --shadow-glow: 0 10px 30px rgba(216, 27, 96, 0.2);
+  
+  --font-sans: 'Outfit', sans-serif;
+}
