@@ -18,7 +18,7 @@ const ProcessSection = () => {
             { num: '4', title: 'Build Your Team', desc: 'Refer other women to join. Earn a bonus on their sales too — and grow into a Team Leader.' }
           ].map((step, idx) => (
             <div key={idx} className="process-step process-card-3d">
-              <div className="step-number 3d-number">{step.num}</div>
+              <div className="step-number number-3d">{step.num}</div>
               <h3>{step.title}</h3>
               <p>{step.desc}</p>
             </div>
