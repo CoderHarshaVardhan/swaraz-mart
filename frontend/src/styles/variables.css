@@ -1,24 +1,24 @@
 :root {
   --primary: #d81b60;
-  --primary-light: #ff5c8d;
-  --primary-dark: #a00037;
+  --primary-dark: #ad1457;
+  --primary-light: #f06292;
   --secondary: #ff9800;
-  --bg-light: #fafafa;
+  --text-dark: #1a1a1a;
+  --text-light: #666666;
+  --text-muted: #999999;
   --bg-white: #ffffff;
-  --text-dark: #121212;
-  --text-light: #5f6368;
-  --text-muted: #9e9e9e;
-  --border-color: #eeeeee;
+  --bg-light: #f8f9fa;
+  --border-color: #e0e0e0;
   
   --radius-sm: 8px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-full: 9999px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 50px;
   
-  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
-  --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.05);
-  --shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.1);
-  --shadow-glow: 0 10px 30px rgba(216, 27, 96, 0.2);
+  --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.15);
+  --shadow-glow: 0 0 30px rgba(216, 27, 96, 0.3);
   
-  --font-sans: 'Outfit', sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
