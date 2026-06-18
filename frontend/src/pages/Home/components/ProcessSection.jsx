@@ -13,9 +13,9 @@ const ProcessSection = () => {
         <div className="process-timeline">
           {[
             { num: '1', title: 'Register for Free', desc: 'Sign up online in minutes with just your Aadhaar number and phone. No documents, no fees.' },
-            { num: '2', title: 'Get Trained', desc: 'Attend a free training session — online or in your village — and learn everything about our products and app.' },
+            { num: '2', title: 'Get Trained', desc: 'Attend a free training session online or in your village and learn everything about our products and app.' },
             { num: '3', title: 'Sell & Earn', desc: 'Share products with your network, take orders on the app, and earn commission on every sale. Simple.' },
-            { num: '4', title: 'Build Your Team', desc: 'Refer other women to join. Earn a bonus on their sales too — and grow into a Team Leader.' }
+            { num: '4', title: 'Build Your Team', desc: 'Refer other women to join. Earn a bonus on their sales too and grow into a Team Leader.' }
           ].map((step, idx) => (
             <div key={idx} className="process-step process-card-3d">
               <div className="step-number number-3d">{step.num}</div>

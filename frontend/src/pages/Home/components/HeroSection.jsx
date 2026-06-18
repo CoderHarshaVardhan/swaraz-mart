@@ -46,12 +46,12 @@ const HeroSection = () => {
         </div>
 
         <p className="hero-subtitle">
-          Swaraz Mart is a women-first rural commerce platform giving every village woman her own business — selling everything from a needle to a luxury car, right from her doorstep.
+          Swaraz Mart is a women-first rural commerce platform giving every village woman her own business selling everything from a needle to a luxury car, right from her doorstep.
         </p>
 
         <div className="hero-actions">
           <Link to={ROUTES.REGISTER} className="btn btn-primary btn-lg btn-glow">
-            <span className="btn-text">Become an Agent — Free</span>
+            <span className="btn-text">Become an Agent Free</span>
             <span className="btn-glow-effect"></span>
           </Link>
           <a href="#services" className="btn btn-outline btn-lg btn-hover-fill">
